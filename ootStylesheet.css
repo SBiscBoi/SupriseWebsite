@@ -1,0 +1,39 @@
+.centered {
+    /* https://stackoverflow.com/questions/10707253/css-full-screen-div-with-text-in-the-middle */
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+p {
+    /* line-height: normal; */
+    margin: 0;
+    background: url("endImg.JPG"); 
+    -webkit-background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    max-height: stretchs;
+    max-width: stretch;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.25vh;
+    text-align: justify;
+    font-size: 1.5vh;
+    display: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(93, 3, 67);
+}

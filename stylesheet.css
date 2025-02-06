@@ -1,0 +1,14 @@
+.centered {
+    /* https://stackoverflow.com/questions/10707253/css-full-screen-div-with-text-in-the-middle */
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 12.5vw;
+}
